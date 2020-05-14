@@ -30,5 +30,23 @@ imgaug: https://imgaug.readthedocs.io/en/latest/
 github: https://github.com/doanmanhduy0210/Imgaug_albumentation_Data
 
 
+### + how push large file storage to github ?   vấn đề khi dùng Github. 
+large file storage github . 
+
+okey lets solve it. 
+
+just search follow link : https://packagecloud.io/github/git-lfs/install 
+
+git lfs install
+
+git lfs track "file_name"
+
+git add .gitattributes
+
+git add file_name 
+
+git commit -m "Add design file"
+
+git push origin master
 
 
